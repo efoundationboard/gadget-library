@@ -93,7 +93,7 @@ read #1 on analog channel, got the value is 47.
 M->S : {?A#1}
 M<-S : {=A#1#47}
 ```
-read #9 on digial channel(a.k.a a button or proximity switch), got value 1
+read #9 on digial channel(e.g a button or proximity switch), got value 1
 ```
 M->S : {?D#9}
 M<-S : {=D#9#1}
@@ -128,6 +128,7 @@ M<-S : {=C#0#Hello World!}
 
 ###Data Notification Message
 When data notification is set to enable on a gadget, the gadget can send a **Data Notification Message** to master.
+
 **M<-S** : gadget send data notification message to master
 ```
 {=<datatype>#<channelID>#<value>}

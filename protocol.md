@@ -24,7 +24,7 @@ EFB Gadget Communication Protocol is an asynchronized communication protocol. A 
 ##Message Types
 ###Device Detecting Message
 ####Field Definition
-* **&lt;device_name> ** : the name of gadget
+* **&lt;device_name>** : the name of gadget
 * **&lt;device_version>** : the version of gadget
 * **&lt;devcie_description>** : the description of gadget.
 

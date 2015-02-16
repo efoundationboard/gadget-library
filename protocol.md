@@ -143,8 +143,8 @@ M<-S : {=D#9#1}
 gadget can send error message to master when error occors
 #### Field Definition
 * **&lt;error_number>** : an error number
-⋅⋅⋅* 0 = Unrecognized Request
-> * other number can defined by gadget
+  * 0 = Unrecognized Request
+  * other number can defined by gadget
 
 **M<-S** : Error message
 ```

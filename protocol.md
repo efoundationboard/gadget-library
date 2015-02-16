@@ -43,12 +43,12 @@ or the short form
 #### example
 ```
 M->S : {?GD}
-M<-S : {=GD#Dual Motor Gadget#please write speed (-127 to 127) on Analog Channel 0 and 1}
+M<-S : {=GD#Dual Motor Gadget#0.1.0#please write speed (-127 to 127) on Analog Channel 0 and 1}
 ```
 another example
 ```
 M->S : {?}
-M<-S : {=GD#Dual Motor Gadget#please write speed (-127 to 127) on Analog Channel 0 and 1}
+M<-S : {=GD#Dual Motor Gadget#0.1.0#please write speed (-127 to 127) on Analog Channel 0 and 1}
 ```
 
 ### Devcie Identify Message

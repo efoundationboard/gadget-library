@@ -150,7 +150,9 @@ gadget can send error message to master when error occors
 ```
 {ER#<error_number>}
 ```
-
-
-	error_number: an error number
+#### example
+```
+M->S : {ASDFASDF}
+S<-M : {ER#0}
+```
 

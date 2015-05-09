@@ -26,8 +26,17 @@ var wait = function(seconds) {
 	console.log("wait for " + seconds + " second(s)");
 }
 
+var beginLoop = function(loopName) {
+	console.log("enter loop : " + loopName);
+}
+
 var loopForever = function() {
 	console.log("loop forever");
+	return true;
+}
+
+var repeatTimes = function(count) {
+	console.log("loop repeat " + count + " times");
 	return true;
 }
 
@@ -39,6 +48,9 @@ var EFB_Actors = {
 
 	"wait"	: wait,
 	"loopForever":loopForever,
+	"beginLoop"	: beginLoop,
+	"repeatTimes" : repeatTimes,
+
 };
 
 

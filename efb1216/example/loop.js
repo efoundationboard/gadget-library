@@ -6,7 +6,7 @@ var loopCount01 = new EV();
 
 function main(){
 	for (loopCount01.set(0); EA.loopForever(); loopCount01.inc()) {
-		EA.waitForSeconds(1);
+		EA.wait(1);
 		console.log(loopCount01.toNumber());
 	}
 }

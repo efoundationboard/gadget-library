@@ -1,5 +1,7 @@
 var EP = require('./efb_port');
 
+var nodeSleep = require("node-sleep");
+
 var Motor = function(port) {
 	console.log("create a motor on " + port.name);
 	this.onForSeconds = function(power, seconds) {
@@ -24,6 +26,7 @@ var Led = function(port) {
 
 var wait = function(seconds) {
 	console.log("wait for " + seconds + " second(s)");
+	nodeSleep.sleep(seconds * 1000);
 }
 
 var beginLoop = function(loopName) {

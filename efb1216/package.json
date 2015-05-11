@@ -1,0 +1,17 @@
+{
+  "name": "efb1216",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HE Qichen",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "node-sleep": "0.0.0"
+  }
+}
